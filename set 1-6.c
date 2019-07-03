@@ -3,7 +3,7 @@
 
 int main()
 {
-   int a[50],s,i,k,j,n=0;
+   int a[50],s,i,k,j,n=0,c=0;
    scanf("%d",&s);
 for(i=0;i<s;++i)
 {
@@ -24,5 +24,10 @@ for(k=0;k<s;++k)
        break;
    }
    n=0;
+   ++c;
+}
+if(c==s)
+{
+    printf("unique");
 }
 }
